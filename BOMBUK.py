@@ -1,3 +1,2 @@
-import os
-
-os.sys("sudo lscpu");
+import platform
+platform.processor()
