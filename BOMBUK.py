@@ -1,2 +1,3 @@
 import platform
-platform.processor()
+import streamlit as st
+st.write (platform.processor())
